@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B0A0A"
+    android:fontFamily="@font/aclonica"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/incButton"
+        android:layout_width="172dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="200dp"
+        android:layout_marginRight="200dp"
+        android:layout_marginBottom="587dp"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/up" />
+
+    <Button
+        android:id="@+id/decButton"
+        android:layout_width="172dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/aclonica"
+        android:layout_marginBottom="586dp"
+        android:text="@string/down" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="@font/aclonica"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="488dp"
+        android:gravity="center"
+        android:text="@string/count"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/white"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/displaytimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="59dp"
+        android:fontFamily="@font/aclonica"
+        android:layout_marginRight="59dp"
+        android:layout_marginBottom="238dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/_30"
+        android:textColor="@color/white"
+        android:textSize="150sp" />
+
+    <Button
+        android:id="@+id/StartButton"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="264dp"
+        android:fontFamily="@font/aclonica"
+        android:layout_marginRight="264dp"
+        android:layout_marginBottom="122dp"
+        android:text="@string/start" />
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="134dp"
+        android:layout_marginRight="134dp"
+        android:layout_marginBottom="122dp"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/stop" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:fontFamily="@font/aclonica"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="122dp"
+        android:text="@string/reset" />
+
+</RelativeLayout>
